@@ -1,6 +1,6 @@
 {
   "Unit": {
-    "Person_Id": { "string": "11223344" },
+    "Person_Id": { "string": ["11223344", "12345678"] },
     "Unit_Code": { "regexp": "[A-Z]{4}[0-9]{4}" },
     "Unit_Title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}"  }
   }
