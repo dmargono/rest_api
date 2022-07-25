@@ -1,7 +1,9 @@
 {
+  "Student": {
+	"PersonId": {"string": {} }
+  },
   "Unit": {
-    "PersonId": { "string": ["11223344", "12345678"] },
-    "UnitCode": { "regexp": "[A-Z]{4}[0-9]{4}" },
-    "UnitTitle": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}"  }
+	"Code": {"string": {} },
+	"Title": {"string": {} }
   }
 }
