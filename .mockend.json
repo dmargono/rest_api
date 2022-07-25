@@ -6,8 +6,8 @@
 	}
   },
   "Unit": {
-	"code": {"string": {} },
-	"title": {"string": {} },
+	"code": { "string": ["ECON1420", "MATH1010", "MATH1357"] },
+	"title": { "string": ["Macro Economoy", "Binaries Numbers", "Theory of Odd Numbers"]  },
 	"student": {
 		"belongsTo": "Student"
 	}
