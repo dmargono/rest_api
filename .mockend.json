@@ -1,9 +1,15 @@
 {
   "Student": {
-	"PersonId": {"string": {} }
+	"personId": {"string": {}},
+	"units": {
+		"hasMany": "Unit"
+	}
   },
   "Unit": {
-	"Code": {"string": {} },
-	"Title": {"string": {} }
+	"code": {"string": {} },
+	"title": {"string": {} },
+	"student": {
+		"belongTo": "Student"
+	}
   }
 }
