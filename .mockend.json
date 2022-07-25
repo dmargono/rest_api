@@ -1,6 +1,6 @@
 {
   "Student": {
-	"personId": {"string": {}},
+	"personId": { "string": ["11223344", "12345678"] },
 	"units": {
 		"hasMany": "Unit"
 	}
