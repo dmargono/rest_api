@@ -1,35 +1,39 @@
 {
-	"Unit": [{
-			"Unit_Code": {
-				"string": "ECON1420"
+	"Unit": { 
+	"StudentID": "11223344",
+	"EnrolledUnit":
+		[{
+				"Unit_Code": {
+					"string": "ECON1420"
+				},
+				"Unit_Title": {
+					"string": "Macro Economoy"
+				}
 			},
-			"Unit_Title": {
-				"string": "Macro Economoy"
-			}
-		},
-		{
-			"Unit_Code": {
-				"string": "MATH1010"
+			{
+				"Unit_Code": {
+					"string": "MATH1010"
+				},
+				"Unit_Title": {
+					"string": "Binaries Numbers"
+				}
 			},
-			"Unit_Title": {
-				"string": "Binaries Numbers"
-			}
-		},
-		{
-			"Unit_Code": {
-				"string": "MATH1357"
+			{
+				"Unit_Code": {
+					"string": "MATH1357"
+				},
+				"Unit_Title": {
+					"string": "Theory of Odd Numbers"
+				}
 			},
-			"Unit_Title": {
-				"string": "Theory of Odd Numbers"
+			{
+				"Unit_Code": {
+					"string": "MUSC1155"
+				},
+				"Unit_Title": {
+					"string": "Introduction to Music Appreciation"
+				}
 			}
-		},
-		{
-			"Unit_Code": {
-				"string": "MUSC1155"
-			},
-			"Unit_Title": {
-				"string": "Introduction to Music Appreciation"
-			}
+		]
 		}
-	]
 }
