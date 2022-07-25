@@ -1,7 +1,7 @@
 {
   "Unit": {
     "Person_Id": { "string": ["11223344", "12345678"] },
-    "Unit_Code": { "regexp": "[A-Z]{4}[0-9]{4}" },
-    "Unit_Title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}"  }
+    "Unit_Code": { "string": ["ECON1420", "MATH1010", "MATH1357"] },
+    "Unit_Title": { "string": ["Macro Economoy", "Binaries Numbers", "Theory of Odd Numbers"]"  }
   }
 }
