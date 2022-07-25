@@ -1,7 +1,7 @@
 {
   "Unit": {
-    "Person_Id": { "string": ["11223344", "12345678"] },
-    "Unit_Code": { "string": ["ECON1420"] },
-    "Unit_Title": { "string": ["Macro Economoy"]  }
+    "Person_Id": { "string": {} },
+    "Unit_Code": { "string": {} },
+    "Unit_Title": { "string": {}  }
   }
 }
