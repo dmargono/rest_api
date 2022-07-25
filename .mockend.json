@@ -6,10 +6,10 @@
 	}
   },
   "Unit": {
-	"code": { "regexp": "[A-Z]{4}[0-9]{4}" },
-	"title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}" },
+	"code": { "string": ["ECON1420", "MATH1010", "MATH1357"] },
+    "title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}" },
 	"student": {
 		"belongsTo": "Student"
-		}
+	}
   }
 }
