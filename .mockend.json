@@ -1,15 +1,14 @@
 {
-  "Student": {
-	"personId": {"string": {}},
-	"units": {
-		"hasMany": "Unit"
-	}
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
-  "Unit": {
-	"code": {"string": {} },
-	"title": {"string": {} },
-	"student": {
-		"belongTo": "Student"
-	}
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
