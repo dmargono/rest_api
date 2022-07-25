@@ -6,10 +6,10 @@
 	}
   },
   "Unit": {
-	"UnitCode": { "regexp": "[A-Z]{4}[0-9]{4}" },
-    "UnitTitle": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}" },
+	"code": { "regexp": "[A-Z]{4}[0-9]{4}" },
+	"title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}" },
 	"student": {
 		"belongsTo": "Student"
-	}
+		}
   }
 }
