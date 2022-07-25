@@ -1,39 +1,7 @@
 {
-	"Unit": { 
-	"StudentID": "11223344",
-	"EnrolledUnit":
-		[{
-				"Unit_Code": {
-					"string": "ECON1420"
-				},
-				"Unit_Title": {
-					"string": "Macro Economoy"
-				}
-			},
-			{
-				"Unit_Code": {
-					"string": "MATH1010"
-				},
-				"Unit_Title": {
-					"string": "Binaries Numbers"
-				}
-			},
-			{
-				"Unit_Code": {
-					"string": "MATH1357"
-				},
-				"Unit_Title": {
-					"string": "Theory of Odd Numbers"
-				}
-			},
-			{
-				"Unit_Code": {
-					"string": "MUSC1155"
-				},
-				"Unit_Title": {
-					"string": "Introduction to Music Appreciation"
-				}
-			}
-		]
-		}
+  "Unit": {
+    "Person_Id": { "string": "11223344" },
+    "Unit_Code": { "regexp": "[A-Z]{4}[0-9]{4}" },
+    "Unit_Title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}"  }
+  }
 }
