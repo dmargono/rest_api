@@ -1,6 +1,6 @@
 {
   "Unit": {
     "Unit_Code": { "regexp": "[A-Z]{4}[0-9]{4}" },
-    "Unit_Title": { "string": {} }
+    "Unit_Title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}"  }
   }
 }
