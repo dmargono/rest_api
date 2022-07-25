@@ -1,6 +1,19 @@
 {
-  "Unit": {
-    "Unit_Code": { "regexp": "[A-Z]{4}[0-9]{4}" },
-    "Unit_Title": { "regexp": "Introduction to [A-Z]{6} of [A-Z]{10}"  }
+  "Unit":
+   {
+    "Unit_Code": { "ECON1420" },
+    "Unit_Title": { "Macro Economoy"  }
+  },
+  {
+    "Unit_Code": { "MATH1010" },
+    "Unit_Title": { "Binaries Numbers"  }
+  },
+  {
+    "Unit_Code": { "MATH1357" },
+    "Unit_Title": { "Theory of Odd Numbers"  }
+  },
+  {
+    "Unit_Code": { "MUSC1155" },
+    "Unit_Title": { "Introduction to Music Appreciation"  }
   }
 }
